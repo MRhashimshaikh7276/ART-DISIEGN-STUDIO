@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>document</title>
+</head>
+
+<body>
+
+    <h4 align="center"><U> STUDENT REGISTRATION FORM</u></h4>
+    <form>
+        <table  align="center" bgcolor="#8044a6" cellpadding="10">
+            <tbody>
+
+
+
+                <tr>
+                    <td><label for="FIRSTNAME">FIRST NAME</label></td>
+                    <td><input type="text" id="FIRSTNAME"> &#40;max 30 charaters a&#45;z and A&#45;Z&#41;</td>
+                </tr>
+                <tr>
+                    <td><label for="LASTNAME">LAST NAME</label></td>
+                    <td><input type="text" id="LASTNAME"> &#40;max 30 charaters a&#45;z and A&#45;Z&#41;</td>
+                </tr>
+                <tr>
+                    <td><label for="DATE"> DATE OF BIRTH</label></td>
+                    <td> <input type="date" id="DATE"></td>
+                </tr>
+                <tr>
+                    <td><label for="EMAIL"> EMAIL ID</label></td>
+                    <td> <input type="email" id="EMAIL"></td>
+                </tr>
+                <tr>
+                    <td><label for="MOBILEnumber"> MOBILE number</label></td>
+                    <td> <input type="number" id="MOBILEnumber">&#40;10 digit number&#41;</td>
+                    
+                </tr>
+                <tr>
+                    <td>GENDAR</td>
+                    <td> <label for="male">male</label><input type="radio" id="male" name="GENDAR">
+                        <label for="female">female</label><input type="radio" id="female" name="GENDAR">
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="ADDRESS">ADDRESS</label></td>
+                    <td> <TExtarea rows="5" cols="40" id="ADDRESS"> </TExtarea></td>
+                </tr>
+                <tr>
+                    <td><label for="CITY"> CITY</label>&#40;max 30 charaters a&#45;z and A&#45;Z&#41;</td>
+                    <td> <input type="text" id="CITY"> </td>
+                </tr>
+                <tr>
+                    <td><label for="PINCODE"> PIN CODE</label></td>
+                    <td> <input type="number" id="PINCODE">&#40;6 digit number&#41;</td>
+                </tr>
+                <tr>
+                    <td><label for="STATE">STATE</label></td>
+                    <td> <input type="text" id="STATE">&#40;max 30 charaters a&#45;z and A&#45;Z&#41;</td>
+                </tr>
+                <tr>
+                    <td><label for="COUNTRY">COUNTRY</label></td>
+                    <td> <input type="text" id="COUNTRY"></td>
+                </tr>
+                <tr>
+
+                    <td valign="top">HOBBIES</td>
+                    <td> <label for="drawing"> drawing</label>
+                        <input type="checkbox" id="drawing">
+                        <label for="singing">singing</label>
+                        <input type="checkbox" id="singing">
+                        <label for="dancing">dancing</label>
+                        <input type="checkbox" id="dancing">
+                        <label for="sketching">sketching</label>
+                        <input type="checkbox" id="sketching">
+                    <br><label for="others">others</label>
+                    <input type="checkbox" id="others"> 
+                <label for="others"></label> <input type="text" id="others"></td>
+                </tr>
+                <tr>
+
+                    <td valign="top">QUALIFICATION</td>
+                    <td>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>SI&period; NO&period;</td>
+                                    <td>Examination</td>
+                                    <td>board</td>
+                                    <td>parcentage</td>
+                                    <td> year of passing</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>class x</td>
+                                    <td> <label for="board"></label><input type="text" id="board"></td>
+                                    <td> <label for="parcentage"></label><input type="number" id="parcentage"></td>
+                                    <td> <label for="year of passing"></label> <input type="number"
+                                            id="year of passing"></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>class xII</td>
+                                    <td> <label for="board"></label><input type="text" id="board"></td>
+                                    <td> <label for="parcentage"></label><input type="number" id="parcentage"></td>
+                                    <td> <label for="year of passing"></label> <input type="number"
+                                            id="year of passing"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>graduation</td>
+                                    <td> <label for="board"></label><input type="text" id="board"></td>
+                                    <td> <label for="parcentage"></label><input type="number" id="parcentage"></td>
+                                    <td> <label for="year of passing"></label> <input type="number"
+                                            id="year of passing"></td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">4</td>
+                                    <td valign="top">Master</td>
+                                    <td> <label for="board"></label><input type="text" id="board"><br>&#40; 10 char
+                                        max&#41;</td>
+                                    <td> <label for="parcentage"></label><input type="number"
+                                            id="parcentage"><br>&#40;upto 2 decimal&#41;</td>
+                                    <td valign="top"> <label for="year of passing"></label> <input type="number"
+                                            id="year of passing"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td> courses <br> applied for </td>
+                    <td> <label for="BCA"> BCA</label><input type="radio" name="courses" id="BCA">
+                        <label for="Bcom"> B&period;com</label><input type="radio" name="courses" id="Bcom">
+                        <label for="BSC"> B&period;SC</label><input type="radio" name="courses" id="BSC">
+                        <label for="BA"> B&period;A</label><input type="radio" name="courses" id="BA">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="button" id="submit" value="submit">
+                    <input type="button" id="reset" value="reset"></td>
+                </tr>
+
+
+
+
+
+
+
+
+
+
+            </tbody>
+
+        </table>
+    </form>
+</body>
+
+</html>
